@@ -16,6 +16,6 @@
 terraform {
   backend "gcs" {
     bucket = "PROJECT_ID-tfstate"
-    prefix = "env/prj-it-sbx-nane1-prod"
+    prefix = "env/prod"
   }
 }
