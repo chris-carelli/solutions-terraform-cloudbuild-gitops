@@ -13,4 +13,4 @@
 # limitations under the License.
 
 
-variable "project" {}
+variable "project" {default = "prj-it-sbx-nane1-01"}
