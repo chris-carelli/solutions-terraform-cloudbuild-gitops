@@ -23,7 +23,7 @@ module "vpc" {
   subnets = [
     {
       subnet_name   = "${var.env}-subnet-01"
-      subnet_ip     = "10.${var.env == "dev" ? 10 : 84}.10.0/24"
+      subnet_ip     = "10.${var.env == "dev" ? 85 : 90}.10.0/24"
       subnet_region = "northamerica-northeast1"
     },
   ]
